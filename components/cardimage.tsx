@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import ButtonSound from './buttonsound.js';
+import ButtonSound from './buttonsound.jsx';
 
 
 function CardImage({ name,translation,img,sound }){

@@ -1,14 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import {
-  faDotCircle,
-  faEye,
-  faHeadphones,
-  faVolumeUp,
-  faLocationArrow,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import HeadComponent from "../../components/head/page";
 import "./bnnerStayles.css";
 

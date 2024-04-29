@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useEffect, useState } from 'react';
-import singers from '../../data/singers.json'
+import singers from '../../data/singers.json';
 import Image from 'next/image';
 
 const Music = () => {

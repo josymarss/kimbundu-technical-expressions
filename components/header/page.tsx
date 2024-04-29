@@ -2,20 +2,7 @@
 import React, { useContext } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faMoon,
-  faHome,
-  faBook,
-  faMusic,
-  faHistory,
-  faCode,
-  faUser,
-  faBrain,
-  faInfo,
-  faWindowClose,
-  faBars,
-} from "@fortawesome/free-solid-svg-icons";
+
 import { useEffect, useState } from "react";
 import Banner from "../banner/page";
 
@@ -30,7 +17,7 @@ export function Header() {
   };
   const NavItems = () => {
     return (
-      <nav>
+      <nav className="">
         <div></div>
         <ul className="menuLink">
           <li className="link">

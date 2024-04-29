@@ -1,4 +1,4 @@
-import Head from "next/head";
+'use client';
 
  function About() {
   return (
